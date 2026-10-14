@@ -1,0 +1,25 @@
+{
+  "name": "pika",
+  "displayName": "Pika",
+  "version": "0.19.2",
+  "description": "Make and edit images, video, music, sound effects and voice with Pika's creation apps.",
+  "author": {
+    "name": "Pika",
+    "url": "https://pika.art"
+  },
+  "homepage": "https://pika.art",
+  "repository": "https://github.com/Pika-Labs/pika-create-plugin",
+  "keywords": [
+    "video",
+    "image",
+    "music",
+    "audio",
+    "creative"
+  ],
+  "icon": "./assets/logo.svg",
+  "documentationUrl": "https://pika.art",
+  "supportUrl": "https://pika.art/support",
+  "privacyPolicyUrl": "https://pika.art/privacy-policy",
+  "termsOfServiceUrl": "https://pika.art/terms-of-service",
+  "mcpServers": "./mcp.json"
+}

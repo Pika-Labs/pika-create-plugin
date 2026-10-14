@@ -1,0 +1,15 @@
+{
+  "name": "pika",
+  "owner": {
+    "name": "Pika",
+    "url": "https://pika.art"
+  },
+  "description": "Pika's creation apps: make and edit images, video, music, sound effects and voice.",
+  "plugins": [
+    {
+      "name": "pika",
+      "source": "./plugins/pika",
+      "category": "creativity"
+    }
+  ]
+}

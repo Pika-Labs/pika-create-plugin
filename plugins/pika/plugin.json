@@ -1,0 +1,49 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "pika",
+  "version": "0.19.2",
+  "description": "Make and edit images, video, music, sound effects and voice with Pika's creation apps.",
+  "author": {
+    "name": "Pika",
+    "url": "https://pika.art"
+  },
+  "homepage": "https://pika.art",
+  "repository": "https://github.com/Pika-Labs/pika-create-plugin",
+  "keywords": [
+    "video",
+    "image",
+    "music",
+    "audio",
+    "creative"
+  ],
+  "extensions": {
+    "com.openai": {
+      "onboardingSkill": "./skills/onboarding/SKILL.md",
+      "interface": {
+        "displayName": "Pika",
+        "shortDescription": "Make video, images and sound",
+        "longDescription": "Pika's creation apps in your chat: product ads, studio headshots, short films, photo animation, relighting, new camera angles, outfit swaps, lip-sync, soundtracks and more. Pick an app from the gallery or describe what you want, upload your photos and clips, and keep building on earlier results.",
+        "developerName": "Pika",
+        "category": "Creativity",
+        "capabilities": [
+          "Interactive",
+          "Read",
+          "Write"
+        ],
+        "websiteURL": "https://pika.art",
+        "privacyPolicyURL": "https://pika.art/privacy-policy",
+        "supportURL": "https://pika.art/support",
+        "termsOfServiceURL": "https://pika.art/terms-of-service",
+        "composerIcon": "./assets/icon.svg",
+        "composerIconDark": "./assets/icon-dark.svg",
+        "logo": "./assets/logo.svg",
+        "logoDark": "./assets/logo-dark.svg",
+        "defaultPrompt": [
+          "Make a 10-second product ad from my photo",
+          "Turn my selfie into a professional headshot",
+          "Show me what apps you have"
+        ]
+      }
+    }
+  }
+}

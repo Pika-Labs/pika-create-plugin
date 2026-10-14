@@ -1,0 +1,20 @@
+{
+  "name": "pika",
+  "interface": {
+    "displayName": "Pika"
+  },
+  "plugins": [
+    {
+      "name": "pika",
+      "source": {
+        "source": "local",
+        "path": "./plugins/pika"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Creativity"
+    }
+  ]
+}
