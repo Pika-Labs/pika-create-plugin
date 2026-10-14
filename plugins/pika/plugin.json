@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "pika",
-  "version": "0.19.2",
+  "version": "0.19.3",
   "description": "Make and edit images, video, music, sound effects and voice with Pika's creation apps.",
   "author": {
     "name": "Pika",
