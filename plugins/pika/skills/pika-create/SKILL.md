@@ -42,7 +42,7 @@ Each task's app, for `show_presets {app}` (step 1):
 - sharper or higher resolution → `upscale` (see `pika-upscale`);
 - cut a clip → `video-trim`; wait for it with `get_job`, then pass its output url to the next app. Cut a longer clip first for apps that take a short one (Camera Director, extend);
 - talking head from a face and audio → `talking-head-studio`; a script is spoken with `create_speech` first, and its output passed once that job finishes;
-- World Cup fan still → `world-cup`; anime World Cup clip → `anime-world-cup`.
+- World Cup fan still → `world-cup-2026`; anime World Cup clip → `anime-world-cup-2026`.
 
 ## Other jobs
 
