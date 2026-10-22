@@ -19,7 +19,7 @@ Setup is a short conversation, not a form: a few lines per message, one question
    - If `about` is saved and an approval mode is chosen, they have set up before: welcome them back in a line and ask what they'd like to make, or whether to redo setup.
 3. **Welcome.** In one message:
    - what Pika is, in a sentence or two, for example: "Pika makes and edits video, images, music and voice right here: 40+ models (Seedance, Kling, Veo, Nano Banana, GPT Image, ElevenLabs and more), apps built for jobs like product ads, studio headshots, lip-synced talking heads and short films, and 150+ presets for effects, styles and looks.";
-   - their credit balance, in a few words, and at 0 credits the link https://pika.art/pricing to add some;
+   - their credit balance, in a few words, and at 0 credits the link https://create.pika.art/subscription to add some;
    - the choice: a minute of setup so you can suggest where to start, or jump straight in.
 4. **About them.** If you already know something about the user from your memory, earlier chats or files you can read, don't make them repeat it: say in a line what you'd use and ask whether you may. Otherwise ask one open question: what they make and where it goes, with a few short examples ("TikToks for my bakery", "ads for clients", "music videos", "just exploring").
    Then play back what you'll keep in one line ("You make … for … on …"). Once they confirm, save it with `set_preferences` as `about`. Keep only what helps creative suggestions (what they make, who for, where it's posted, brand and style) and nothing sensitive. Tell them they can ask you to change or clear it any time.
